@@ -1,0 +1,9 @@
+Variable,Mean,SD,1,2,3,4,5,6,7,8
+1. AI intensity (index),0.00,0.89,NA,NA,NA,NA,NA,NA,NA,NA
+2. Task standardization (index),3.72,0.78,-.08,NA,NA,NA,NA,NA,NA,NA
+3. Digital comfort,4.29,0.75,.22*,-.01,NA,NA,NA,NA,NA,NA
+4. Relative performance,3.73,0.72,.27**,.08,.28**,NA,NA,NA,NA,NA
+5. Evaluation outcome,3.84,0.63,.06,.11,.31**,.50**,NA,NA,NA,NA
+6. Tenure (years),6.50,5.66,-.22*,.08,-.12,-.11,.00,NA,NA,NA
+7. Experience (years),18.84,11.70,-.19,.11,-.17,-.09,.02,.48**,NA,NA
+8. Hours/week,41.54,4.71,.14,-.04,.04,.09,.25*,.16,.15,NA

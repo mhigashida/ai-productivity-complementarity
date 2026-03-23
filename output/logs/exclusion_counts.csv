@@ -1,0 +1,7 @@
+step,n,detail
+raw_rows,139,Raw Qualtrics export as read by read_csv()
+drop_first_2_metadata_rows,137,Dropped first two rows (question text + ImportId)
+exclude_preview,104,Excluded preview using column: distribution_channel
+exclude_attention_checks,103,Applied check_01 correct AND attention_check == 4
+exclude_not_finished_optional,102,No finished column in export
+final_usable,102,Wrote /Users/mhigashida/Documents/phdba297b-pilot/data/processed/analysis_ready.csv

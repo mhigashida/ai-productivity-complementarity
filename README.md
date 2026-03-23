@@ -1,102 +1,43 @@
-# AI Productivity Pilot Study
+# AI Productivity Complementarity
 
-This repository contains the analysis code, processed data, and outputs for a pilot study examining whether AI productivity effects depend on task structure and worker capability.
+This repository contains materials for an ongoing research project on how AI use relates to individual productivity, with a focus on complementarity between technology use, worker capability, and task structure.
 
----
+The project is motivated by a central question in organizational behavior and people analytics: under what conditions does AI use translate into better worker performance? Rather than treating AI as a uniform productivity enhancer, this research examines whether its effects depend on alignment with worker capability and the nature of the task.
 
-## Overview
+## Current study: pilot
 
-The preregistered hypotheses tested whether AI intensity interacts with task standardization to predict performance. Exploratory analyses further examined whether digital comfort (a proxy for worker capability) conditions AI productivity effects.
+The `pilot-study/` directory contains the original pilot analysis based on a cross-sectional survey of knowledge workers. The pilot examines whether AI intensity is associated with performance, and whether this relationship is moderated by digital comfort and task standardization.
 
-The theoretical framework guiding this study is complementarity: AI productivity effects may depend on alignment between technology, task structure, and worker capability rather than operating as a universal main effect.
+Main features of the pilot:
 
----
+- Cross-sectional survey design
+- Performance outcomes:
+  - formal evaluation outcome (ordinal)
+  - self-reported relative performance
+- Key constructs:
+  - AI intensity
+  - digital comfort
+  - task standardization
+- Main analytic approach:
+  - ordinal logistic regression
+  - interaction models
+  - marginal effects
+  - exploratory robustness checks
 
-## Repository Structure
+## Research framing
 
-ai-productivity-pilot/
+The broader theoretical argument developed in this project is that AI functions less as a standalone productivity driver than as a complementary asset whose performance implications depend on worker capability and task conditions.
 
-├── preregistration_updated.pdf  
-│  
-├── code/  
-│   ├── 00_setup.R  
-│   ├── 01_ingest_qc.R  
-│   ├── 02_constructs.R  
-│   ├── 03_confirmatory_prereg.R  
-│   ├── 04_prereg_outputs.R  
-│   ├── 04_robustness_pcs.R  
-│   ├── fig_coef_prereg_modelB_eval.R  
-│   ├── fig_capability_digital_comfort.R  
-│   ├── fig_margeff_digital_comfort_highperf.R  
-│   └── fig_configuration_3way_facets.R  
-│  
-├── data/  
-│   └── processed/  
-│       └── analysis_constructed.csv  
-│  
-└── output/  
-    ├── figs/  
-    └── logs/  
+## Repository structure
 
----
+- `pilot-study/`: original pilot materials, including analysis scripts and processed data
+- `paper/`: manuscript files for the paper built from the pilot
+- `docs/`: supplementary project documentation
 
-## Data
+## Reproducibility
 
-Raw survey exports are not included in this repository to protect participant confidentiality.
+This repository is being developed as a reproducible research workflow. As the project evolves, the repository will be updated to improve documentation, analysis transparency, and alignment between the pilot study and planned follow-up research.
 
-The analytic dataset used for modeling is provided in:
+## Status
 
-data/processed/analysis_constructed.csv
-
-All results can be reproduced from this file using the scripts in the `code/` directory.
-
----
-
-## Reproducing Results
-
-### Confirmatory preregistered analyses
-
-Run:
-
-source("code/00_setup.R")  
-source("code/03_confirmatory_prereg.R")  
-source("code/04_prereg_outputs.R")  
-
-### Figures
-
-Run:
-
-source("code/fig_coef_prereg_modelB_eval.R")  
-source("code/fig_capability_digital_comfort.R")  
-source("code/fig_margeff_digital_comfort_highperf.R")  
-source("code/fig_configuration_3way_facets.R")  
-
-All figures will be saved to:
-
-output/figs/
-
----
-
-## Methods Summary
-
-Models are estimated using cumulative logit models (ordinal::clm) with:
-
-- AI intensity index  
-- Task standardization index  
-- AI × Task interaction  
-- Digital comfort  
-- Controls (tenure, experience, hours worked)  
-
-Exploratory models include a three-way interaction to evaluate configurational patterns consistent with complementarity theory.
-
----
-
-## Notes
-
-This is a pilot study. Confidence intervals are wide, and results should be interpreted cautiously. The goal of this project is to evaluate theoretical plausibility and inform future experimental designs.
-
----
-
-## License
-
-For academic use only.
+This repository currently contains pilot-stage materials and is being extended into a paper-oriented research pipeline.

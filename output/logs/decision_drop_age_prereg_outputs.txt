@@ -1,0 +1,1 @@
+Dropped 'age' (rule) to reduce deterministic collinearity with tenure_years + experience_years in small N.

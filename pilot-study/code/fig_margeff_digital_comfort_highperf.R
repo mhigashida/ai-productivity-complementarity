@@ -176,8 +176,9 @@ p <- ggplot2::ggplot(plot_df, ggplot2::aes(x = digital_comfort, y = me)) +
   ggplot2::geom_line(linewidth = 1.2) +
   ggplot2::labs(
     x = "Digital comfort",
-    y = "Marginal effect on Pr(high ≥4)"
+    y = "Change in probability of high performance (evaluation ≥4)"
   ) +
+  ggplot2::scale_x_continuous(breaks = 1:5, limits = c(1,5))
   ggplot2::theme_classic(base_size = 18) +
   ggplot2::theme(
     axis.title.y = ggplot2::element_text(margin = ggplot2::margin(r = 10)),

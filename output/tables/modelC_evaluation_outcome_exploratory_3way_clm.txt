@@ -1,0 +1,28 @@
+formula: 
+evaluation_outcome_ord ~ ai_c * ts_c * dc_c + tenure_years + experience_years + hours_per_week
+data:    data
+
+ link  threshold nobs logLik AIC    niter max.grad cond.H 
+ logit flexible  69   -51.27 128.55 7(0)  1.17e-11 8.7e+05
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)   
+ai_c              0.0950401  0.3569981   0.266  0.79007   
+ts_c              0.4911110  0.3959722   1.240  0.21488   
+dc_c              1.3973734  0.4442244   3.146  0.00166 **
+tenure_years      0.0196062  0.0621410   0.316  0.75237   
+experience_years  0.0004748  0.0262075   0.018  0.98555   
+hours_per_week    0.0753662  0.0753378   1.000  0.31713   
+ai_c:ts_c         0.8799424  0.4314834   2.039  0.04142 * 
+ai_c:dc_c         0.7170429  0.5045762   1.421  0.15529   
+ts_c:dc_c        -1.9638910  0.7901306  -2.486  0.01294 * 
+ai_c:ts_c:dc_c   -0.3852376  0.6576429  -0.586  0.55802   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Threshold coefficients:
+    Estimate Std. Error z value
+2|3   -1.595      3.239  -0.492
+3|4    1.858      3.047   0.610
+4|5    6.163      3.172   1.943
+(33 observations deleted due to missingness)
