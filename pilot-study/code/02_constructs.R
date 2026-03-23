@@ -3,7 +3,7 @@
 # Purpose: Construct preregistered indices (AI intensity, task standardization),
 #          compute reliability, and write constructed dataset.
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths

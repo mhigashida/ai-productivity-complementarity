@@ -22,7 +22,7 @@
 #       if age + tenure_years + experience_years exist -> drop age
 #   - All deviations/stabilizations are logged under output/logs/
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths + folders

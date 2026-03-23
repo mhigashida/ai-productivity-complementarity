@@ -2,7 +2,7 @@
 # Vertical coefficient plot (FOCAL TERMS ONLY) for relative performance DV
 # Mirrors fig_coef_prereg_modelB_eval.R
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 library(readr)
 library(dplyr)

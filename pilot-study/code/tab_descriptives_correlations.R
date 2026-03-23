@@ -1,7 +1,7 @@
 # code/tab_descriptives_correlations.R
 # Descriptives + correlation matrix (AMJ-style) -> CSV + PNG
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 library(dplyr)
 library(readr)

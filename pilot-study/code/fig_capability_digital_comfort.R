@@ -2,7 +2,7 @@
 # Capability Matters figure: predicted Pr(high performance >= 4) vs digital comfort
 # Style: journal grayscale, point + 95% CI whiskers (no ribbon)
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 in_path <- here::here("data/processed/analysis_constructed.csv")
 out_png <- here::here("output/figs/fig_capability_digital_comfort_highperf_ci_whiskers.png")

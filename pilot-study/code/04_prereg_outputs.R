@@ -14,7 +14,7 @@
 #   - Uses ordinal::clm for ordinal logistic regression.
 #   - Uses predict.clm(type="prob") for interaction plot (no ggeffects needed).
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 suppressPackageStartupMessages({
   library(dplyr)

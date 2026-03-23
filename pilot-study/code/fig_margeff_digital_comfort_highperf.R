@@ -2,7 +2,7 @@
 # Marginal effect of digital comfort on Pr(high performance >= 4)
 # Using ordinal::clm + simulation-based 95% CI (Wald approx)
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths

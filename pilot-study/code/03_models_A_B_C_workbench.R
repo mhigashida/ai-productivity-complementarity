@@ -20,7 +20,7 @@
 #   - If the “full” model still produces NA SEs, it automatically falls back to dropping the sparse factors
 #     and logs that decision.
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths + folders

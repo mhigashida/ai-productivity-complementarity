@@ -2,7 +2,7 @@
 # Vertical coefficient plot (FOCAL TERMS ONLY)
 # No embedded notes — for slide use
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 library(readr)
 library(dplyr)

@@ -4,7 +4,7 @@
 # - Model B: relative_performance (ordinal)
 # Points: log-odds coefficients; bars: 95% Wald CI
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths

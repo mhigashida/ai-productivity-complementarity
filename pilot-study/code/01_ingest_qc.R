@@ -3,7 +3,7 @@
 # Purpose: Ingest raw Qualtrics export, apply preregistered exclusions,
 #          and write analysis-ready dataset + exclusion log.
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths

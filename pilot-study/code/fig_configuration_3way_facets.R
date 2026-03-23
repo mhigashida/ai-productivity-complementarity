@@ -7,7 +7,7 @@
 # Outputs:
 #   output/figs/fig_config_ai_task_dc_facets.(png|pdf)
 
-source(here::here("code/00_setup.R"))
+source(here::here("pilot-study/code/00_setup.R"))
 
 # -----------------------------
 # Paths
