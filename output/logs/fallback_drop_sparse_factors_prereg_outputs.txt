@@ -1,1 +1,0 @@
-Model produced NA SEs; refitting without job_level/job_function for stability (still prereg covariates where feasible).

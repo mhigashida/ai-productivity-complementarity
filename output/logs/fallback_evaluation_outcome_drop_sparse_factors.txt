@@ -1,1 +1,0 @@
-Model B unstable for evaluation_outcome (NA SEs and/or extreme cond.H). Refit without sparse factors job_level/job_function.

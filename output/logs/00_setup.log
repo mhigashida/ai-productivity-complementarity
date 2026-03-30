@@ -1,4 +1,0 @@
-Error in contrib.url(repos, "source") : 
-  trying to use CRAN without setting a mirror
-Calls: install.packages -> contrib.url
-Execution halted

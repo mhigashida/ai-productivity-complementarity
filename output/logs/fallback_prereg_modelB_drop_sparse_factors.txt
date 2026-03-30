@@ -1,1 +1,0 @@
-Model B produced NA standard errors; refitting without job_level/job_function.

@@ -1,1 +1,0 @@
-Dropped 'age' because tenure_years + experience_years are also present (deterministic collinearity rule for small N).
