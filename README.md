@@ -1,43 +1,133 @@
-# AI Productivity Complementarity
+# AI Productivity Complementarity  
+**AI as a Capability-Contingent Amplifier of Knowledge Worker Performance**
 
-This repository contains materials for an ongoing research project on how AI use relates to individual productivity, with a focus on complementarity between technology use, worker capability, and task structure.
+## Overview
 
-The project is motivated by a central question in organizational behavior and people analytics: under what conditions does AI use translate into better worker performance? Rather than treating AI as a uniform productivity enhancer, this research examines whether its effects depend on alignment with worker capability and the nature of the task.
+This repository contains materials for an ongoing research program examining how generative AI use relates to knowledge worker performance.
 
-## Current study: pilot
+A central puzzle in the emerging literature on AI and work is that its productivity effects are highly uneven: AI substantially improves performance in some contexts while producing limited or even negative effects in others.
 
-The `pilot-study/` directory contains the original pilot analysis based on a cross-sectional survey of knowledge workers. The pilot examines whether AI intensity is associated with performance, and whether this relationship is moderated by digital comfort and task standardization.
+This project develops and tests a **complementarity-based explanation** of this heterogeneity.
 
-Main features of the pilot:
+---
 
-- Cross-sectional survey design
-- Performance outcomes:
-  - formal evaluation outcome (ordinal)
-  - self-reported relative performance
-- Key constructs:
-  - AI intensity
-  - digital comfort
-  - task standardization
-- Main analytic approach:
-  - ordinal logistic regression
-  - interaction models
-  - marginal effects
-  - exploratory robustness checks
+## Core Idea
 
-## Research framing
+Rather than treating AI as a uniform productivity enhancer, this research conceptualizes AI as a **capability-contingent amplifier**:
 
-The broader theoretical argument developed in this project is that AI functions less as a standalone productivity driver than as a complementary asset whose performance implications depend on worker capability and task conditions.
+> The performance effects of AI depend on the alignment between  
+> (1) AI usage,  
+> (2) worker capability, and  
+> (3) task structure.
 
-## Repository structure
+Under this perspective, AI does not independently improve performance. Instead, its returns emerge from complementarities between human capability and task conditions.
 
-- `pilot-study/`: original pilot materials, including analysis scripts and processed data
-- `paper/`: manuscript files for the paper built from the pilot
-- `docs/`: supplementary project documentation
+---
+
+## Current Study: Pilot
+
+The `pilot-study/` directory contains a preregistered cross-sectional survey of knowledge workers:
+
+- Total sample: N = 102  
+- Formal evaluation subsample: N = 69  
+
+### Key Features
+
+- **Performance outcomes**
+  - Formal evaluation outcome (ordinal)
+  - Self-reported relative performance  
+
+- **Core constructs**
+  - AI usage intensity  
+  - Digital capability  
+  - Task standardization  
+
+- **Methods**
+  - Ordinal logistic regression  
+  - Interaction models  
+  - Predicted probability analysis  
+
+---
+
+## Main Findings
+
+- AI usage is **not associated with a uniform main effect** on performance  
+- Instead, performance effects vary systematically across:
+  - worker capability  
+  - task structure  
+
+- The marginal returns to AI usage are:
+  - higher for workers with greater digital capability  
+  - more stable under structured task conditions  
+
+These results provide initial evidence that AI functions as a **capability-contingent amplifier**, producing heterogeneous performance effects.
+
+---
+
+## Theoretical Contribution
+
+This project contributes to research on AI and work by:
+
+- Moving beyond average treatment effects to explain **heterogeneity in AI productivity**
+- Integrating:
+  - human capital (capability)  
+  - task design (structure)  
+  - technology use (AI)  
+
+- Developing a **complementarity framework** for human–AI interaction  
+
+---
+
+## Repository Structure
+
+- `pilot-study/` — Original pilot data, scripts, and analysis  
+- `paper/` — Working paper and manuscript materials  
+- `docs/` — Supplementary documentation  
+
+---
+
+## Working Paper
+
+📄 The current working paper is available here:  
+`paper/paper.pdf`
+
+---
 
 ## Reproducibility
 
-This repository is being developed as a reproducible research workflow. As the project evolves, the repository will be updated to improve documentation, analysis transparency, and alignment between the pilot study and planned follow-up research.
+This repository is structured to support reproducible research, including:
+
+- transparent data preprocessing  
+- clearly defined model specifications  
+- reproducible tables and figures  
+
+---
+
+## Ongoing Work
+
+This project is being extended beyond survey-based analysis toward **behavioral trace data**.
+
+Specifically, I am developing an LLM-based workflow system that:
+
+- captures real-time AI usage behavior  
+- logs task-level decisions (e.g., reply, archive, ignore)  
+- enables measurement of productivity in naturalistic work settings  
+
+This system is designed to generate richer empirical data for testing complementarity-based theories of AI and performance.
+
+---
 
 ## Status
 
-This repository currently contains pilot-stage materials and is being extended into a paper-oriented research pipeline.
+This repository contains pilot-stage results and is actively being extended into a full research pipeline combining:
+
+- theory development  
+- empirical modeling  
+- system-based data collection  
+
+---
+
+## Author
+
+Masaki Higashida  
+University of California, Berkeley
