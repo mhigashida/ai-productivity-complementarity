@@ -33,3 +33,20 @@ __pycache__/
 # Misc
 # =========================
 *.tmp
+
+# Private paper source and build artifacts
+paper/apa.csl
+paper/figs/
+paper/paper.html
+paper/paper.qmd
+paper/paper_files/
+paper/references.bib
+paper/results/
+paper/tables/
+
+# Keep only the final PDF public
+!paper/paper.pdf
+
+# Private research materials
+literature/
+paper-code/
