@@ -127,6 +127,14 @@ This repository contains pilot-stage results and is actively being extended into
 
 ---
 
+## Data and Code Availability
+
+Due to ongoing research and planned submission for academic publication, the full dataset and analysis code are not publicly released at this time.
+
+A reproducible version of the analysis will be made available upon publication.
+
+---
+
 ## Author
 
 Masaki Higashida  
