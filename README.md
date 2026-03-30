@@ -1,6 +1,8 @@
 # AI Productivity Complementarity  
 **AI as a Capability-Contingent Amplifier of Knowledge Worker Performance**
 
+📄 **Working Paper:** [AI Productivity Complementarity (PDF)](paper/paper.pdf)
+
 ## Overview
 
 This repository contains materials for an ongoing research program examining how generative AI use relates to knowledge worker performance.
@@ -88,8 +90,7 @@ This project contributes to research on AI and work by:
 
 ## Working Paper
 
-📄 The current working paper is available here:  
-`paper/paper.pdf`
+The full working paper is linked above. This version reflects the current pilot study and ongoing theoretical development.
 
 ---
 
